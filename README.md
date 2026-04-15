@@ -49,16 +49,22 @@ Constraints:
 Row constraint
 Column constraint
 3×3 box constraint
-2. Algorithms Used
+
+3. Algorithms Used:
+
 AC-3 (Arc Consistency)
 Reduces domains before search begins
 Removes inconsistent values
+
 Backtracking Search
 Assigns values recursively
 Explores possible solutions
+
 MRV Heuristic
 Selects the variable with the smallest domain
 Improves efficiency
+
+
 How to Run:
 Make sure all input files are in the same directory:
 easy.txt
@@ -67,12 +73,14 @@ hard.txt
 veryhard.txt
 Then run:
 python your_file_name.py
+
 Output
 For each Sudoku board, the program prints:
 Solved Sudoku grid
 Number of backtracking calls
 Number of backtracking failures
 Expected values (for comparison)
+
 Performance Analysis
 Easy Board
 Very few backtracking calls and failures
