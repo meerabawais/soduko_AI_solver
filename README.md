@@ -74,14 +74,16 @@ veryhard.txt
 Then run:
 python your_file_name.py
 
-Output
+Output:
+
 For each Sudoku board, the program prints:
 Solved Sudoku grid
 Number of backtracking calls
 Number of backtracking failures
 Expected values (for comparison)
 
-Performance Analysis
+Performance Analysis:
+
 Easy Board
 Very few backtracking calls and failures
 Puzzle is simple with fewer empty cells
